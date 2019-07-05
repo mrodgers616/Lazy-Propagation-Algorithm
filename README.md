@@ -24,8 +24,8 @@ The next  lines contain queries of the following 3 types
 3 a, return the entrance fee for a planet name  from the database
 Constraints
 
-n <= 100000
-|a|, |b| <= 10
+n <= 100000 --
+|a|, |b| <= 10 --
 0 <= k <= 10^5
 
 
@@ -36,57 +36,4 @@ Output Format
 For each query of type 3 print the entrance fee of the planet in a new line.
 
 If the planet is not in the database, print a "-1", without the quotes.
-
-Sample Input 0
-
-7
-1 earth 10
-1 venus 30
-1 jupiter 5
-2 earth venus 10
-3 earth
-3 venus
-3 jupiter
-
-Sample Output 0
-
-20
-40
-15
-
-Sample Input 1
-
-7
-1 earth 10
-1 venus 30
-2 earth venus 10
-1 jupiter 5
-3 earth
-3 venus
-3 jupiter
-
-Sample Output 1
-
-20
-40
-5
-
-Sample Input 2
-
-8
-1 earth 10
-1 venus 30
-1 jupiter 5
-2 z a 10
-3 earth
-3 venus
-3 jupiter
-3 mars
-
-Sample Output 2
-
-20
-40
-15
--1
 
