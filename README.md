@@ -24,8 +24,8 @@ The next  lines contain queries of the following 3 types
 3 a, return the entrance fee for a planet name  from the database
 Constraints
 
-n <= 100000 --
-|a|, |b| <= 10 --
+n <= 100000   //
+|a|, |b| <= 10   //
 0 <= k <= 10^5
 
 
